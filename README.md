@@ -9,3 +9,13 @@ Application is designed for Android 6.0 (API 23).
 
 ## Implementation details
 KeyHolder was implemented in Java (v.8). Many different Google's APIs were used (as SmartLock, Android Store) - many of them may misbehave with other Android versions.
+
+## Have a look
+<p float="left">
+  <img src="/presentation/main_menu.png" width="200" title="Main menu"/>
+  <img src="/presentation/key_store.png" width="200" title="Key store"/> 
+  <img src="/presentation/adding_new.png" width="200" title="Adding new key"/>
+  <img src="/presentation/import_export.png" width="200" title="Import/Export"/>
+  <img src="/presentation/export_menu.png" width="200" title="Export"/>
+  <img src="/presentation/settings.png" width="200" title="Settings"/>
+</p>

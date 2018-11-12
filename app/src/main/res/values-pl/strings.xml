@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="entry_hint_gmail">Nazwa użytkownika Google</string>
+    <string name="entry_hint_password">Hasło</string>
+    <string name="button_login">Zaloguj się</string>
+    <string name="button_exit">Wyloguj się i wyjdź</string>
+    <string name="button_key_store">Lista kluczy</string>
+    <string name="button_settings">Ustawienia</string>
+    <string name="label_title_settings">Ustawienia</string>
+    <string name="label_auto_login">Automatyczne logowanie</string>
+    <string name="label_language_choice">Język (może wymagać restartu)</string>
+    <string name="label_master_key">Master key</string>
+    <string name="button_imp_exp">Import/Eksport</string>
+    <string name="label_title_key_store">Lista kluczy</string>
+    <string name="key_go">Idź</string>
+    <string name="key_other_options">Inne akcje</string>
+    <string name="title_alert_lock_screen">Zabezpiecz swoje urządzenie</string>
+    <string name="message_alert_lock_screen">Twoje urządzenie nie jest wystarczająco zabezpieczone. W celu użytkowania aplikacji, najpierw ustaw blokadę ekranu.</string>
+    <string name="button_positive_alert_lock_screen">Ustaw blokadę ekranu</string>
+    <string name="button_negative_alert_lock_screen">Wyjdź</string>
+    <string name="title_add_key">Dodaj nowy klucz</string>
+    <string name="button_positive_add_new_key">Dodaj</string>
+    <string name="button_negative_cancel">Anuluj</string>
+    <string name="entry_hint_key_name">Nazwa klucza (niepusta)</string>
+    <string name="entry_hint_login_page">Strona logowania</string>
+    <string name="radio_button_custom_password">Własne hasło (między 4–40 znaków)</string>
+    <string name="radio_button_generate_password">Wygeneruj hasło</string>
+    <string name="entry_hint_custom_password">Twoje hasło</string>
+    <string name="label_key_length">Długość klucza</string>
+    <string name="entry_hint_username">Nazwa użytkownika</string>
+    <string name="menu_item_delete_key">Usuń klucz</string>
+    <string name="menu_item_edit_key">Edytuj klucz</string>
+    <string name="menu_item_copy_password">Kopiuj hasło</string>
+    <string name="menu_item_copy_username">Kopiuj nazwę użytkownika</string>
+    <string name="toast_key_removed">Usunięto klucz \'%s\'</string>
+    <string name="toast_copied_username">Skopiowano nazwę użytkownika do schowka</string>
+    <string name="toast_copied_password">Skopiowano hasło do schowka</string>
+    <string name="toast_language_changed">Zmieniono język na polski</string>
+    <string name="radio_button_old_password">Zachowaj stare hasło</string>
+    <string name="title_edit_key">Edytuj klucz</string>
+    <string name="button_positive_edit_key">Zatwierdź</string>
+    <string name="error_empty_text">Nie może być puste</string>
+    <string name="error_password_length">Nieprawidłowa długość</string>
+    <string name="title_import">Importuj</string>
+    <string name="title_export">Eksportuj</string>
+    <string name="description_export">Zabezpiecz swoje prywatne dane. Zaszyfruj lokalną bazę kluczy i zapisz ją jako plik w pamięci zewnętrznej urządzenia.
+         Nadaj mu unikalną nazwę, aby przechowywać wiele niezależnych wersji.</string>
+    <string name="description_import">Znajdź zapisaną bazę kluczy o danej nazwie na swoim urządzeniu. Spowoduje to dodanie kluczy do lokalnego zbioru.
+        Będziesz potrzebować tego samego klucza, który był używany do zaszyfrowania pliku.</string>
+    <string name="label_title_import_export">Import/Eksport</string>
+    <string name="entry_hint_bundle_name">Wersja</string>
+    <string name="entry_hint_export_key">Klucz do zaszyfrowania</string>
+    <string name="entry_hint_import_key">Klucz do odszyfrowania</string>
+    <string name="radio_button_add_keys">Dodaj klucze do lokalnej bazy</string>
+    <string name="radio_button_replace_keys">Zastąp lokalną bazę kluczy</string>
+    <string name="button_positive_export">Eksportuj</string>
+    <string name="button_positive_import">Importuj</string>
+    <string name="error_wrong_email">Niepoprawny adres gmail</string>
+    <string name="pref_category_language" >Język</string>
+    <string name="pref_category_logging" >Logowanie</string>
+    <string name="label_multiple_credentials">Wiele kont</string>
+    <string name="label_multiple_credentials_description">Zezwól na dostęp z wielu kont Google</string>
+    <string name="toast_saved">Zapisano</string>
+    <string name="toast_no_external_storage">Pamięć zewnętrzna niedostępna</string>
+    <string name="toast_no_file">Brak pliku</string>
+    <string name="toast_wrong_seed">Zły klucz</string>
+    <string name="label_clear_all">Usuń wszystkie klucze</string>
+    <string name="pref_category_keystore">Lista kluczy</string>
+
+</resources>

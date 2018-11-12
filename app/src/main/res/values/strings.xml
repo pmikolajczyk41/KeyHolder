@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name" translatable="false">KeyHolder</string>
+    <string name="entry_hint_gmail">Google username</string>
+    <string name="entry_hint_password">User password</string>
+    <string name="logo_content_description" translatable="false">logo</string>
+    <string name="button_login">Login</string>
+    <string name="button_exit">Logout and exit</string>
+    <string name="button_key_store">Key Store</string>
+    <string name="button_settings">Settings</string>
+    <string name="button_imp_exp">Import/Export</string>
+    <string name="preference_auto_login" translatable="false">preference_auto_login</string>
+    <string name="preference_language" translatable="false">preference_language</string>
+    <string name="preference_master_key" translatable="false">pref_master_key</string>
+    <string name="preference_language_default" translatable="false">pl</string>
+    <string name="label_title_settings">Settings</string>
+    <string name="label_auto_login">Enable auto login</string>
+    <string name="label_language_choice">Language (may require restart)</string>
+    <string name="label_master_key">Master key</string>
+    <string name="label_title_key_store">KeyStore</string>
+    <string name="key_icon_content_description" translatable="false">keyIcon</string>
+    <string name="key_name" translatable="false">keyName</string>
+    <string name="key_other_options">Other options</string>
+    <string name="key_go">Go</string>
+
+    <string-array name="language_entries">
+        <item>Polski</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="language_entry_values">
+        <item>pl</item>
+        <item>en</item>
+    </string-array>
+    <string name="title_alert_lock_screen">Lock your device</string>
+    <string name="message_alert_lock_screen">Your device is not safe enough. To continue, you should firstly set lock screen.</string>
+    <string name="button_positive_alert_lock_screen">Set screen lock</string>
+    <string name="button_negative_alert_lock_screen">Exit</string>
+    <string name="title_add_key">Add new key</string>
+    <string name="button_positive_add_new_key">Add</string>
+    <string name="button_negative_cancel">Cancel</string>
+    <string name="entry_hint_key_name">Key alias (non empty)</string>
+    <string name="entry_hint_login_page">Login webpage</string>
+    <string name="radio_button_custom_password">Custom password (between 4–40 characters)</string>
+    <string name="radio_button_generate_password">Generate password</string>
+    <string name="entry_hint_custom_password">Your password</string>
+    <string name="label_key_length">Key length</string>
+    <string name="shared_preferences_keys" translatable="false">keyholder.shared_preferences.keys</string>
+    <string name="entry_hint_username">Username</string>
+    <string name="close_actions_icon_content_description" translatable="false">Close actions</string>
+    <string name="menu_item_copy_username">Copy username</string>
+    <string name="menu_item_copy_password">Copy password</string>
+    <string name="menu_item_edit_key">Edit key</string>
+    <string name="menu_item_delete_key">Delete key</string>
+    <string name="toast_key_removed">Key \'%s\' removed</string>
+    <string name="toast_copied_username">Username copied to clipboard</string>
+    <string name="toast_copied_password">Password copied to clipboard</string>
+    <string name="toast_language_changed">Language changed to English (US)</string>
+    <string name="prefix_login_page" translatable="false">https://</string>
+    <string name="radio_button_old_password">Use old password</string>
+    <string name="title_edit_key">Edit key</string>
+    <string name="button_positive_edit_key">Apply</string>
+    <string name="intent_add_edit_extra_if_generate_password" translatable="false">if_generate_password</string>
+    <string name="intent_add_edit_extra_key" translatable="false">key</string>
+    <string name="intent_add_edit_extra_if_user_name" translatable="false">include_username</string>
+    <string name="intent_add_edit_extra_if_login_page" translatable="false">include_login_page</string>
+    <string name="intent_add_edit_query_type_edit_key" translatable="false">edit_key</string>
+    <string name="intent_add_edit_query_type_add_key" translatable="false">add_key</string>
+    <string name="intent_add_edit_query_type" translatable="false">query_type</string>
+    <string name="intent_add_edit_extra_if_old_password" translatable="false">if_old_password</string>
+    <string name="intent_add_edit_extra_if_custom_password" translatable="false">if_custom_password</string>
+    <string name="intent_add_edit_extra_old_key" translatable="false">old_key</string>
+    <string name="error_empty_text">Must not be empty</string>
+    <string name="error_password_length">Wrong length</string>
+    <string name="title_import">Import</string>
+    <string name="title_export">Export</string>
+    <string name="description_export">Backup your secret data. Encrypt local KeyStore and save it as a document file to your External Storage.
+        Give it an unique name, so you will be able to store different and independent versions.</string>
+    <string name="description_import">Find saved KeyStore by name in your device\'s storage. Then add new keys to the local base.
+        You will need the same key with which you have encrypted file.</string>
+    <string name="label_title_import_export">Import/Export</string>
+    <string name="entry_hint_bundle_name">Version</string>
+    <string name="entry_hint_export_key">Encryption key</string>
+    <string name="entry_hint_import_key">Decryption key</string>
+    <string name="radio_button_add_keys">Add keys to the local Key Store</string>
+    <string name="radio_button_replace_keys">Replace local Key Store</string>
+    <string name="button_positive_export">Export</string>
+    <string name="button_positive_import">Import</string>
+    <string name="default_bundle_name" translatable="false">MyKeyStore</string>
+    <string name="intent_export_extra_bundle_name" translatable="false">bundle_name</string>
+    <string name="intent_export_extra_encryption_seed" translatable="false">encryption_seed</string>
+    <string name="intent_export_extra_keys" translatable="false">keys</string>
+    <string name="toast_export_success" translatable="false">Exported successfully</string>
+    <string name="toast_failure" translatable="false">Failure occured</string>
+    <string name="intent_import_extra_bundle_name" translatable="false">bundle_name</string>
+    <string name="toast_import_success" translatable="false">Imported successfully</string>
+    <string name="intent_import_extra_encryption_seed" translatable="false">encryption_seed</string>
+    <string name="intent_import_extra_if_add_keys" translatable="false">if_add_keys</string>
+    <string name="intent_import_extra_if_replace_keys" translatable="false">if_replace_keys</string>
+    <string name="error_wrong_email">Incorrect gmail address</string>
+    <string name="pref_category_language" >Languages</string>
+    <string name="pref_category_logging" >Logging</string>
+    <string name="preference_multiple_credentials" translatable="false">preference_multiple_credentials</string>
+    <string name="label_multiple_credentials">Multiple accounts</string>
+    <string name="label_multiple_credentials_description">Enable access from multiple Google accounts</string>
+    <string name="toast_saved">Saved</string>
+    <string name="import_export_control_word" translatable="false">control</string>
+    <string name="toast_no_external_storage">External storage unavailable</string>
+    <string name="toast_no_file">No such file</string>
+    <string name="toast_wrong_seed">Wrong decryption key</string>
+    <string name="preference_clear_all" translatable="false">preference_clear_all</string>
+    <string name="label_clear_all">Remove all the stored keys</string>
+    <string name="pref_category_keystore">Key store</string>
+</resources>

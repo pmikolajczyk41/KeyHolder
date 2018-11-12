@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="key_length_max">40</integer>
+    <integer name="key_length_min">4</integer>
+    <integer name="key_length_default">12</integer>
+</resources>

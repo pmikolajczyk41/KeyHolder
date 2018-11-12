@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_language">
+        <ListPreference
+            android:defaultValue="@string/preference_language_default"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_entry_values"
+            android:icon="@drawable/lang"
+            android:key="@string/preference_language"
+            android:title="@string/label_language_choice" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_logging">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/unlocked"
+            android:key="@string/preference_auto_login"
+            android:title="@string/label_auto_login" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/multiple_credentials"
+            android:key="@string/preference_multiple_credentials"
+            android:title="@string/label_multiple_credentials" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_keystore">
+        <CheckBoxPreference
+            android:checked="false"
+            android:defaultValue="false"
+            android:icon="@drawable/clear_all"
+            android:key="@string/preference_clear_all"
+            android:title="@string/label_clear_all" />
+    </PreferenceCategory>
+</PreferenceScreen>
